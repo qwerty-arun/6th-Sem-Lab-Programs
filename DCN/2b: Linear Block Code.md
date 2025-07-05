@@ -110,6 +110,29 @@ int  main() {
 return 0;
 }
 ```
+# Results
+```
+Hamming Code --- Encoding
+Enter 4-bit data (e.g. 1011): 1101
+
+Generator Matrix:
+1 0 0 0 1 1 1 
+0 1 0 0 1 1 0 
+0 0 1 0 1 0 1 
+0 0 0 1 0 1 1 
+
+Encoded 7-bit Hamming Code: 1101010
+
+Enter position to introduce error (1-7, 0 for none): 7
+Error introduced at position 7
+
+Received Data: 1101011
+Syndrome: 001
+Error detected at bit position: 7
+Corrected Data: 1101010
+```
+
+
 # Exercise
 ```cpp
 #include <iostream>
@@ -207,4 +230,14 @@ int main() {
 
     return 0;
 }
+```
+# Results of Exercise
+```
+Linear Block Code --- Error Detection and Correction
+Enter 3-bit data (e.g. 011): 011
+Encoded Codeword: 011011
+Enter received 6-bit codeword (with possible error): 010011
+Syndrome: 110
+Error detected at bit position: 3
+Corrected Codeword: 011011
 ```
