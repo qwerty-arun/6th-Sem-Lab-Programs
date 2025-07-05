@@ -93,6 +93,16 @@ int main() {
     return 0;
 }
 ```
+
+# Results
+```
+Enter Source Node (A-J): A
+Enter Destination Node (A-J): D
+
+Shortest Path: D <- E <- J <- I <- H <- B <- A
+Total Weight: 7
+```
+
 # Exercise
 ```c
 #include <stdio.h>
@@ -184,4 +194,12 @@ int main() {
 
     return 0;
 }
+```
+# Results of Exercise
+```
+Enter Source Node (A-G): A
+Enter Destination Node (A-G): F
+
+Shortest Path: F <- B <- A
+Total Weight: 7
 ```
