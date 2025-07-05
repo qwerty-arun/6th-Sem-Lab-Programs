@@ -99,3 +99,46 @@ void main() {
     }
 }
 ```
+# Results
+```
+Enter the number of vertices: 6
+Enter distance between vertex A and B: 2
+Enter distance between vertex A and C: 5
+Enter distance between vertex A and D: 6
+Enter distance between vertex A and E: 3
+Enter distance between vertex A and F: 4
+Enter distance between vertex B and C: 3
+Enter distance between vertex B and D: 6
+Enter distance between vertex B and E: 3
+Enter distance between vertex B and F: 6
+Enter distance between vertex C and D: 4
+Enter distance between vertex C and E: 5
+Enter distance between vertex C and F: 7
+Enter distance between vertex D and E: 4
+Enter distance between vertex D and F: 6
+Enter distance between vertex E and F: 4
+Sorted order of edges:
+Edge : 0  First Node : A  Second Node : B  Distance : 2
+Edge : 1  First Node : A  Second Node : E  Distance : 3
+Edge : 2  First Node : B  Second Node : C  Distance : 3
+Edge : 3  First Node : B  Second Node : E  Distance : 3
+Edge : 4  First Node : A  Second Node : F  Distance : 4
+Edge : 5  First Node : C  Second Node : D  Distance : 4
+Edge : 6  First Node : D  Second Node : E  Distance : 4
+Edge : 7  First Node : E  Second Node : F  Distance : 4
+Edge : 8  First Node : A  Second Node : C  Distance : 5
+Edge : 9  First Node : C  Second Node : E  Distance : 5
+Edge : 10  First Node : A  Second Node : D  Distance : 6
+Edge : 11  First Node : B  Second Node : D  Distance : 6
+Edge : 12  First Node : B  Second Node : F  Distance : 6
+Edge : 13  First Node : D  Second Node : F  Distance : 6
+Edge : 14  First Node : C  Second Node : F  Distance : 7
+
+
+Minimal Spanning Tree:
+A <----> B   Distance: 2
+A <----> E   Distance: 3
+B <----> C   Distance: 3
+A <----> F   Distance: 4
+C <----> D   Distance: 4
+```
