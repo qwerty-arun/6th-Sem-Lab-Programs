@@ -64,3 +64,58 @@ void main() {
     getch(); // For Turbo C/C++ IDE (optional in modern compilers)
 }
 ```
+# Results
+```
+Enter output rate: 2
+
+Enter bucket size: 10
+
+-------------------------------------------------
+Incoming packet: 3
+Transmission left: 3
+Next packet will come at 5
+
+Time left 5 --- No packets to transmit!!
+
+Time left 4 --- No packets to transmit!!
+
+Time left 3 --- No packets to transmit!!
+
+Time left 2 --- No packets to transmit!!
+
+Time left 1 --- No packets to transmit!!
+Transmitted
+Bytes remaining: 1
+
+-------------------------------------------------
+Incoming packet: 6
+Transmission left: 7
+Next packet will come at 6
+
+Time left 6 --- No packets to transmit!!
+
+Time left 5 --- No packets to transmit!!
+
+Time left 4 --- No packets to transmit!!
+
+Time left 3 --- No packets to transmit!!
+
+Time left 2 --- No packets to transmit!!
+
+Time left 1 --- No packets to transmit!!
+Transmitted
+Bytes remaining: 5
+Bucket size exceeded
+
+-------------------------------------------------
+Incoming packet: 5
+Transmission left: 10
+Next packet will come at 2
+
+Time left 2 --- No packets to transmit!!
+
+Time left 1 --- No packets to transmit!!
+Transmitted
+Bytes remaining: 8
+Bucket size exceeded
+```
